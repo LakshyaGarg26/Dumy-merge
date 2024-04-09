@@ -123,7 +123,9 @@ public class Main {
         id = sc.nextInt();
         System.out.println("Removing Employees");
         payrollSystem.removeEmployee(1);
-        System.out.println("Remaining Employees Details  ");
+
+        System.out.println("Remaining Employees Details");
+
         payrollSystem.displayEmployees();
 
         changes();
