@@ -91,6 +91,9 @@ class PayrollSystem {
 }
 
 public class Main {
+    public static void changes(){
+        System.out.println("This is the changes done by Gurpreet");
+    }
     public static void main(String[] args) {
         PayrollSystem payrollSystem = new PayrollSystem();
         Scanner sc = new Scanner(System.in);
@@ -122,5 +125,7 @@ public class Main {
         payrollSystem.removeEmployee(1);
         System.out.println("Remaining Employees Details");
         payrollSystem.displayEmployees();
+
+        changes();
     }
 }
